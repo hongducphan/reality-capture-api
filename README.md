@@ -29,7 +29,7 @@ This sample illustrates the Reality Capture API's photogrammetry workflow:
 3. Open a browser and navigate to `http://localhost.autodesk.com:9990/`.
 
 4. Click on the `Authorize me` link and login to your Autodesk account.
-   - In your console, you should see `Server listening on port 80`.
+   - In your console, you should see `Server listening on port 9990`.
    - In the browser, you should see a HTML form.
    - Enter a scene name in the `Name` field and work the buttons from the top down while observing the messages on the console.
 
