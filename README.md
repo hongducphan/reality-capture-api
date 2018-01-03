@@ -24,12 +24,12 @@ This sample illustrates the Reality Capture API's photogrammetry workflow:
    - Replace the `client_id` and `client_secret` variable values in `phototo3d.js` with your Forge credentials.
 
 2. Execute `node phototo3d.js`
-   - The node server will listen on on port `80`.
+   - The node server will listen on on port `9990`.
 
-3. Open a browser and navigate to `http://localhost.autodesk.com/`.
+3. Open a browser and navigate to `http://localhost.autodesk.com:9990/`.
 
 4. Click on the `Authorize me` link and login to your Autodesk account.
-   - In your console, you should see `Server listening on port 80`.
+   - In your console, you should see `Server listening on port 9990`.
    - In the browser, you should see a HTML form.
    - Enter a scene name in the `Name` field and work the buttons from the top down while observing the messages on the console.
 
